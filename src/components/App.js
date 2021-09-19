@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import Search from './Search'
 import Imagelist from './Imagelist'
+import './App.css'
 class App extends React.Component {
 
     state = { images: [] }//it hold all the response from api
