@@ -1,9 +1,10 @@
-img:hover {
-  transform: scale(
-    1.3
-  );
-  border-radius: 10px; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+img:hover{
+    transform: scale(1.3);
+    border-radius: 10px;
 }
-body {
-  background-color: #ffffff;
+
+
+img{
+    border-radius: 15px;  
 }
